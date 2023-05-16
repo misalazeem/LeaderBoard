@@ -1,5 +1,5 @@
 const score = document.querySelector('.table');
-function loadSinglescore(player) {
+const loadSinglescore = (player) => {
   const row = document.createElement('tr');
   const item = document.createElement('th');
   item.innerHTML = `${player.user}: ${player.score}`;
