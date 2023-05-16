@@ -1,0 +1,86 @@
+body {
+  background-color: #fff;
+  padding: 0;
+}
+
+header {
+  padding: 0 5%;
+}
+
+.main-section {
+  padding: 0 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recent-scores {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-area {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-area h2 {
+  display: inline-block;
+}
+
+.button {
+  padding: 0 30px;
+  height: 50%;
+  background-color: #fff;
+  border: 3px solid #000;
+  box-shadow: 0 5px 5px #000;
+}
+
+.add-score {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table {
+  width: 100%;
+  border: 3px solid #000;
+}
+
+.table tr {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form input {
+  border: 3px solid #000;
+  margin-bottom: 0px;
+  padding: 5px;
+}
+
+.form button {
+  margin: auto;
+}
