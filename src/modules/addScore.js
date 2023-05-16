@@ -7,10 +7,10 @@ const addScore = async (player) => {
   await fetch(APIurl, {
     method: 'POST',
     headers: {
-        'Content-Type': 'application/json',
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify(userscore),
-  })
-}
+  });
+};
 
 export default addScore;
