@@ -5,6 +5,6 @@ const loadSinglescore = (player) => {
   item.innerHTML = `${player.user}: ${player.score}`;
   row.appendChild(item);
   score.appendChild(row);
-}
+};
 
 export default loadSinglescore;
