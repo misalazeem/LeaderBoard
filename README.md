@@ -140,7 +140,7 @@ Example command:
 
 ### Deployment
 
-- Coming Soon
+- <a href="https://misalazeem.github.io/LeaderBoard/">Click here for live Demo</a>
 
 <!--
 Example:
