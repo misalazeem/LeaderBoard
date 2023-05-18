@@ -88,3 +88,22 @@ tr:nth-child(even) {
   margin-bottom: 0;
   padding: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heading-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+}
