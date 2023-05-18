@@ -1,14 +1,21 @@
 body {
   background-color: #fff;
+  color: #043a56;
+  font-family: sans-serif, Calibri;
+  background-image: url(./img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
   padding: 0;
 }
 
 header {
-  padding: 0 5%;
+  padding: 0 10%;
 }
 
 .main-section {
-  padding: 0 5%;
+  padding: 0 10%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -39,8 +46,8 @@ header {
   padding: 0 30px;
   height: 50%;
   background-color: #fff;
-  border: 3px solid #000;
-  box-shadow: 0 5px 5px #000;
+  border: 3px solid #043a56;
+  box-shadow: 0 5px 5px #043a56;
 }
 
 .add-score {
@@ -53,7 +60,8 @@ header {
 
 .table {
   width: 100%;
-  border: 3px solid #000;
+  border: 3px solid #043a56;
+  overflow: auto;
 }
 
 .table tr {
@@ -76,7 +84,7 @@ tr:nth-child(even) {
 }
 
 .form input {
-  border: 3px solid #000;
+  border: 3px solid #043a56;
   margin-bottom: 0;
   padding: 5px;
 }
