@@ -97,7 +97,7 @@ tr:nth-child(even) {
     justify-content: center;
     align-items: center;
   }
-  
+
   .heading-area {
     display: flex;
     flex-direction: column;
